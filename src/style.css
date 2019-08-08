@@ -1,0 +1,56 @@
+/* font-family: 'Ramaraja', serif;
+font-family: 'Judson', serif;
+font-family: 'Rufina', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif; */
+
+body {
+  margin: 0;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: white;
+}
+
+.fullpage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackBkgd {
+  background-color: black;
+  color: white;
+}
+
+.whiteBkgd {
+  background-color: white;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+}

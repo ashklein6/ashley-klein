@@ -1,0 +1,15 @@
+{
+  "name": "ashley-klein",
+  "version": "1.0.0",
+  "description": "I am a Full-Stack Web Developer that thrives in a fast-paced environment and is driven by the desire to design creative, efficient, and robust solutions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashley Klein",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
