@@ -124,7 +124,7 @@ function onMouseMove(e) {
 $(function(){
   $('#content').scroll(function() {
     let winTop = $('#content').scrollTop()
-    if (winTop <= window.innerHeight * 0.55) {
+    if (winTop <= window.innerHeight * 0.65) {
       console.log('adding class')
       $("#title").addClass("sticky")
     } else {

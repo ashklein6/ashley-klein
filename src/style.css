@@ -4,8 +4,19 @@ font-family: 'Rufina', serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Montserrat', sans-serif; */
 
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 canvas {
@@ -15,11 +26,31 @@ canvas {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 4em;
+  font-size: 6em;
+  animation-duration: 2s;
+  animation-name: fadeInDown;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.blackBkgd {
+  background-color: black;
+  color: white;
+}
+
+.blackTintBkgd {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bold {
+  font-weight: 900;
 }
 
 .content {
@@ -33,17 +64,50 @@ h2 {
   color: white;
 }
 
+.em2 {
+  font-size: 2em;
+}
+
 .fullpage {
   width: 100%;
-  height: 100%;
+  height: 110%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.blackBkgd {
-  background-color: black;
-  color: white;
+.italic {
+  font-style: italic;
+}
+
+.largePadding {
+  padding: 10%;
+}
+
+.lowerLeft {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.lvl100 {
+  z-index: 100;
+}
+
+.noBottom {
+  margin-bottom: 0.5em;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.noTop {
+  margin-top: 0.05em;
+}
+
+.sticky {
+  position: fixed;
 }
 
 .whiteBkgd {
@@ -51,6 +115,23 @@ h2 {
   color: black;
 }
 
-.sticky {
-  position: fixed;
+.whiteTintBkgd {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
+
+#slideInRight {
+  animation-name: slideInRight;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+} 
