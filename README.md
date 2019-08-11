@@ -6,6 +6,12 @@ This is an application created with three.js and jquery. It features animations 
 
 JavaScript, Node.js, Three.js, jQuery
 
+## Screenshots
+![landing](screenshots/landing.png)
+The landing page features a galaxy animation of stars.
+
+![education](screenshots/education.png)
+
 ## Getting Started
 
 To get a copy of this personal-site running on your local machine:
